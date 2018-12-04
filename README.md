@@ -1,6 +1,9 @@
-# Usage of build
+# Usage to build
 
 docker-compose build
+docker-compose up -d
+docker-compose ps
+docker-compose run web rake db:create
 
 # README
 
