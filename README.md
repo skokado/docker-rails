@@ -1,9 +1,13 @@
 # Usage to build
 
-docker-compose build<br>
-docker-compose up -d<br>
-docker-compose ps<br>
-docker-compose run web rake db:create
+- cd docker-compose/<br>
+- docker-compose build<br>
+- docker-compose up -d<br>
+- docker-compose ps<br>
+- vi config/database.yml
+17: password: [your_password]
+18: host: db
+- docker-compose run web rake db:create
 
 # README
 
