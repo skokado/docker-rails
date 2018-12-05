@@ -4,9 +4,9 @@
 - docker-compose build<br>
 - docker-compose up -d<br>
 - docker-compose ps<br>
-- vi config/database.yml
-17: password: [your_password]
-18: host: db
+- vi config/database.yml<br>
+17: password: [your_password]<br>
+18: host: db<br>
 - docker-compose run web rake db:create
 
 # README
